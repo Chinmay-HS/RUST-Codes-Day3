@@ -1,5 +1,9 @@
-   0.053278700s  INFO prepare_target{force=false package_id=ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership) target="ownership"}: cargo::core::compiler::fingerprint: fingerprint error for ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership)/Check { test: false }/TargetInner { name: "ownership", doc: true, ..: with_path("D:\\chinmay\\Clyxn Sorxn Tantraniketan\\RUST-Codes-Day3\\ownership\\src\\main.rs", Edition2024) }
-   0.053366600s  INFO prepare_target{force=false package_id=ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership) target="ownership"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership\target\debug\.fingerprint\ownership-80a0c21315e52775\bin-ownership`
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+   0.334873900s  INFO prepare_target{force=false package_id=ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership) target="ownership"}: cargo::core::compiler::fingerprint: fingerprint error for ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership)/Check { test: false }/TargetInner { name: "ownership", doc: true, ..: with_path("D:\\chinmay\\Clyxn Sorxn Tantraniketan\\RUST-Codes-Day3\\ownership\\src\\main.rs", Edition2024) }
+   0.334965700s  INFO prepare_target{force=false package_id=ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership) target="ownership"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership\target\debug\.fingerprint\ownership-80a0c21315e52775\bin-ownership`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -26,8 +30,8 @@ Stack backtrace:
   18: git_midx_writer_dump
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
-   0.073445000s  INFO prepare_target{force=false package_id=ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership) target="ownership"}: cargo::core::compiler::fingerprint: fingerprint error for ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership)/Check { test: true }/TargetInner { name: "ownership", doc: true, ..: with_path("D:\\chinmay\\Clyxn Sorxn Tantraniketan\\RUST-Codes-Day3\\ownership\\src\\main.rs", Edition2024) }
-   0.073505600s  INFO prepare_target{force=false package_id=ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership) target="ownership"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership\target\debug\.fingerprint\ownership-5c80e817f992d0b6\test-bin-ownership`
+   0.355795500s  INFO prepare_target{force=false package_id=ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership) target="ownership"}: cargo::core::compiler::fingerprint: fingerprint error for ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership)/Check { test: true }/TargetInner { name: "ownership", doc: true, ..: with_path("D:\\chinmay\\Clyxn Sorxn Tantraniketan\\RUST-Codes-Day3\\ownership\\src\\main.rs", Edition2024) }
+   0.355851400s  INFO prepare_target{force=false package_id=ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership) target="ownership"}: cargo::core::compiler::fingerprint:     err: failed to read `D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership\target\debug\.fingerprint\ownership-5c80e817f992d0b6\test-bin-ownership`
 
 Caused by:
     The system cannot find the file specified. (os error 2)
@@ -55,6 +59,6 @@ Stack backtrace:
   19: BaseThreadInitThunk
   20: RtlUserThreadStart
     Checking ownership v0.1.0 (D:\chinmay\Clyxn Sorxn Tantraniketan\RUST-Codes-Day3\ownership)
-error: could not compile `ownership` (bin "ownership") due to 3 previous errors
-warning: build failed, waiting for other jobs to finish...
 error: could not compile `ownership` (bin "ownership" test) due to 3 previous errors
+warning: build failed, waiting for other jobs to finish...
+error: could not compile `ownership` (bin "ownership") due to 3 previous errors
